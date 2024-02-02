@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Create/Edit Core Details - Invoice B2B{% endblock %}
+
+{% block content %}
+<h2>Create/Edit Core Details</h2>
+<form method="post">
+    {% csrf_token %}
+    <!-- Add form fields for core data -->
+    <div>
+        <label for="core_field1">Core Field 1:</label>
+        <input type="text" id="core_field1" name="core_field1" value="{{ form.core_field1.value }}">
+        <!-- Display form errors if any -->
+        {% for error in form.core_field1.errors %}
+            <span class="error">{{ error }}</span>
+        {% endfor %}
+    </div>
+    <div>
+        <label for="core_field2">Core Field 2:</label>
+        <input type="text" id="core_field2" name="core_field2" value="{{ form.core_field2.value }}">
+        <!-- Display form errors if any -->
+        {% for error in form.core_field2.errors %}
+            <span class="error">{{ error }}</span>
+        {% endfor %}
+    </div>
+    <!-- Add more fields as needed -->
+    <button type="submit">Save</button>
+</form>
+{% endblock %}
