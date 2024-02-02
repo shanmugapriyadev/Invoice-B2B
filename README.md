@@ -68,14 +68,22 @@ The project's folder structure is organized as follows:
 
 The InvoiceB2B project exposes the following API endpoints:
 
-    /api/core/states/: Endpoint for managing states within India.
-    /api/core/currencies/: Endpoint for managing currencies.
-    /api/company/companies/: Endpoint for managing company information.
-    /api/company/addresses/: Endpoint for managing company addresses.
-    /api/company/gst-numbers/: Endpoint for managing GST numbers associated with companies.
-    /api/company/payment-modes/: Endpoint for managing payment modes.
-    /api/client/clients/: Endpoint for managing client information.
-    /api/invoice/invoices/: Endpoint for managing invoices.
+    /api/core/states/ 
+Endpoint for managing states within India.
+    /api/core/currencies/ 
+Endpoint for managing currencies.
+    /api/company/companies/
+Endpoint for managing company information.
+    /api/company/addresses/
+Endpoint for managing company addresses.
+    /api/company/gst-numbers/
+Endpoint for managing GST numbers associated with companies.
+    /api/company/payment-modes/
+Endpoint for managing payment modes.
+    /api/client/clients/
+Endpoint for managing client information.
+    /api/invoice/invoices/
+Endpoint for managing invoices.
 
 ### Authentication and Authorization
 
