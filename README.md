@@ -12,7 +12,7 @@ Clone the project repository from GitHub:
 
 bash
 
-    git clone https://github.com/yourusername/InvoiceB2B.git
+    github.com/shanmugapriyadev/Invoice-B2B.git
 
 Navigate to the project directory:
 
