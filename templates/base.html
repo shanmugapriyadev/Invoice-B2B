@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Invoice B2B{% endblock %}</title>
+    <!-- Add your CSS and JavaScript links here -->
+</head>
+<body>
+    <header>
+        <!-- Header content goes here -->
+        <h1>Invoice B2B</h1>
+        <nav>
+            <!-- Navigation links go here -->
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/invoices/">Invoices</a></li>
+                <li><a href="/clients/">Clients</a></li>
+                <li><a href="/companies/">Companies</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        <!-- Content from child templates will be rendered here -->
+        {% endblock %}
+    </main>
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2024 Invoice B2B</p>
+    </footer>
+</body>
+</html>
